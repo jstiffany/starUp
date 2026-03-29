@@ -11,7 +11,26 @@ body {
 /** LOGIN **/
 
 #startupLogo {
-    width: 55%;
+    width: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#userloginForm {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    display: grid;
+    width: 50%;
 
     
+}
+
+#username, #password {
+
 }
