@@ -14,21 +14,18 @@
 
         <div id="userloginForm">
 
-            <form name="loginForm" method="post" netlify>
+            <form name="loginForm" method="post" data-netlify="true">
 
-            <div id="username" class="input">
-                <label for="username">username</label>
-                <input type="text" name="username" id="username">
-            </div>
+            <div id="inputs">
+                <div id="username" class="input">
+                    <label for="username">username</label>
+                    <input type="text" name="username" id="username">
+                </div>
 
-            <div id="password" class="input">
-                <label for="password">password</label>
-                <input type="password" name="password" id="password">
-            </div>
-
-            <div class="notUser">
-                <label for="notUser">not a user? sign up now!</label>
-                <button id="signUp"><a href="/signupPage/signup.html">signup</a></button>
+                <div id="password" class="input">
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password">
+                </div>
             </div>
 
             <button type="submit">login</button>
