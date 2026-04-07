@@ -29,10 +29,11 @@ body {
         justify-content: center;
         align-items: center;
     }
+
     .overallForm {
         transform: scale(0.9);
         
-        margin-top: 60px !important;
+        margin-top: -30px !important;
         margin-bottom: 150px !important;
     }
 
@@ -40,13 +41,17 @@ body {
         margin-left: 0.3em !important;
     }
 
-    #userloginForm {
+    #usersignupForm {
         margin-top: 100px;
     }
     
 }
 
 /** LOGIN **/
+
+body {
+    margin-top: -150px;
+}
 
 .overallForm {
     display: flex;
@@ -131,8 +136,6 @@ a {
     color: white;
 
     padding: 2px 3px 2px 3px;
-
-    cursor: pointer;
 }
 
 .bottomButtons {

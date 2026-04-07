@@ -6,17 +6,22 @@
 
     <title>login</title>
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
     <div class="overallForm">
         <img id="startupLogo" src="/userCredentials/usercredImages/starupLogo.png" alt="starUp">
 
-        <div id="userloginForm">
+        <div id="usersignupForm">
 
-            <form name="loginForm" method="post" netlify>
+            <form name="signupForm" method="post" netlify>
 
             <div id="inputs">
+                <div id="email_Holder" class="input">
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
                 <div id="username_Holder" class="input">
                     <label for="username">username</label>
                     <input type="text" name="username" id="username" required>
@@ -26,10 +31,15 @@
                     <label for="password">password</label>
                     <input type="password" name="password" id="password" required>
                 </div>
+
+                <div id="confirmpassword_Holder" class="input">
+                    <label for="confirmpassword">confirm password</label>
+                    <input type="password" name="password" id="confirmpassword" required>
+                </div>
             </div>
             <div class="bottomButtons">
-                <a href="signup.html">not a member? signup</a>
-                <button type="submit">login</button>
+                <a href="index.html">already a member? login</a>
+                <button type="submit">signup</button>
             </div>
             </form>
 
